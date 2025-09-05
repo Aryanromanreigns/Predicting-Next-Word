@@ -1,0 +1,14 @@
+Predicting-Next-Word/
+├── data/
+│   └── sample_texts.txt        # Optional: example corpora
+├── src/
+│   ├── model.py                # Defines and trains the RNN/LSTM model
+│   ├── train.py                # Training script
+│   ├── predict.py              # Runs next-word prediction
+│   └── utils.py                # Helper functions (tokenization, etc.)
+├── notebooks/
+│   └── exploration.ipynb       # EDA and model experiments
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project overview and instructions
+├── CONTRIBUTING.md             # Contribution guidelines
+└── LICENSE                     # MIT License
